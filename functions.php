@@ -5,6 +5,8 @@
 // $site_url = network_site_url("/");
 // echo $site_url;
 
+//echo get_bloginfo();
+
 //exit();
 
 
