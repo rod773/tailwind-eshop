@@ -1,6 +1,6 @@
 <?php
 
-// echo get_stylesheet_uri();
+//echo get_stylesheet_uri();
 // echo get_template_directory_uri();
 // $site_url = network_site_url("/");
 // echo $site_url;
