@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <?php $title = get_bloginfo( 'name' );?>
+    <?php 
+    $title = get_bloginfo( 'name' );
+    
+    $site_url = network_site_url( '/' );
+
+    $site_description  = get_bloginfo( 'description' );
+    
+    ?>
 
     <title><?php echo $title?></title>
 
