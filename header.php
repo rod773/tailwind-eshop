@@ -11,7 +11,7 @@
     
     $site_url = network_site_url( '/' );
 
-    $site_description  = get_bloginfo( 'description' );
+    
     
     ?>
 
@@ -24,8 +24,9 @@
     <div class="container mx-auto p-5">
         <div class="md:flex md:flex-row md:justify-between text-center text-sm sm:text-base">
             <div class="flex flex-row justify-center">
-                <div class="bg-gradient-to-r from-purple-400 to-red-400 w-10 h-10 rounded-lg"></div>
-                <h1 class="text-3xl text-gray-600 ml-2">Logo</h1>
+                <!-- <div class="bg-gradient-to-r from-purple-400 to-red-400 w-10 h-10 rounded-lg"></div> -->
+                <?php the_custom_logo();?>
+
             </div>
             <div class="mt-2">
                 <a href="#" class="text-gray-600 hover:text-purple-600 p-4 px-3 sm:px-4">Home</a>
