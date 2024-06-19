@@ -1,11 +1,8 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  important: true,
+  content: ["./**/*.php", "./*.php", "./js/*.js"],
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
